@@ -25,5 +25,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github](https://github.com/ccccchriz/age-calculator-app-main)
+- Solution URL: [frontendmentor](https://www.frontendmentor.io/solutions/age-calculator-app-41KZKVx9wW)
 - Live Site URL: [netlify](https://gentle-frangipane-ed502d.netlify.app)
