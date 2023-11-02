@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap");
+    </style>
+
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main>
+      <div class="page">
+        <form action="|" id="page__form">
+          <label for="day" class="page__label page__label--day">Day</label>
+          <input type="number" name="day" id="day" placeholder="DD" />
+          <label for="day" class="page__error" id="day__error"></label>
+
+          <label for="month" class="page__label page__label--month"
+            >Month</label
+          >
+          <input type="number" name="month" id="month" placeholder="MM" />
+          <label for="month" class="page__error" id="month__error"></label>
+
+          <label for="year" class="page__label page__label--year">Year</label>
+          <input type="number" name="year" id="year" placeholder="YYYY" />
+          <label for="year" class="page__error" id="year__error"></label>
+          <button type="submit" class="page__button">
+            <img
+              src="assets/images/icon-arrow.svg"
+              alt="submit"
+              class="page__image"
+            />
+          </button>
+        </form>
+        <hr class="page__line" />
+        <div class="page__times">
+          <div class="page__time">
+            <span class="page__time--years page__time--number">--</span> years
+          </div>
+          <div class="page__time">
+            <span class="page__time--months page__time--number">--</span> months
+          </div>
+          <div class="page__time">
+            <span class="page__time--days page__time--number">--</span> days
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
